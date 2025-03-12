@@ -9,7 +9,6 @@ spec:
       app: postgres
   template:
     metadata:
-    
       labels:
         app: postgres
     spec:
@@ -19,8 +18,6 @@ spec:
           ports:
             - containerPort: 5432
           env:
-            - name: POSTGRES_DB
-              value: "security"
             - name: POSTGRES_USER
               valueFrom:
                 secretKeyRef:
