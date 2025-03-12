@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ssanchez04/security-back:1.4
+          image: ssanchez04/security-back:1.5
           ports:
             - containerPort: 8080
           env:
