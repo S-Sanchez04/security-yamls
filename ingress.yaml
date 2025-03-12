@@ -7,7 +7,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: apps.example.com  # Reemplaza con tu dominio
+    - host: appdesanti.duckdns.org
       http:
         paths:
           - path: /
