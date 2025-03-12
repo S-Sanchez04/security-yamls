@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend1
+  name: frontend
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: frontend1
+      app: frontend
   template:
     metadata:
       labels:
-        app: frontend1
+        app: frontend
     spec:
       containers:
-        - name: frontend1
+        - name: frontend
           image: ssanchez04/security-front:latest
           ports:
             - containerPort: 80
