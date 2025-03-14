@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ssanchez04/security-front:1.9
+        image: ssanchez04/security-front:2.7
         ports:
         - containerPort: 80
         volumeMounts:
